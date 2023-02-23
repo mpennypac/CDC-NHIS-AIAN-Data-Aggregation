@@ -1,0 +1,618 @@
+,Variable Name,Description
+0,RECTYPE,Record type
+1,SRVY_YR,Year of the National Health Interview Survey
+2,HHX,Randomly assigned household number unique to a household
+3,WTFA_A,Weight - Final Annual
+4,URBRRL,2013 NCHS Urban-Rural Classification Scheme for Counties
+5,REGION,Household region
+6,PSTRAT,Pseudo-stratum for public-use file variance estimation
+7,PPSU,Pseudo-PSU for public-use file variance estimation
+8,HHRESPSA_FLG,"Sample Adult is the household respondent or the proxywho lives in the household"
+9,INTV_QRT,Interview quarter
+10,INTV_MON,Interview month
+11,HHSTAT_A,Indicates person is the Sample Adult
+12,ASTATNEW,Recoded ASTAT
+13,AVAIL_A,Sample Adult Available
+14,PROXY_A,Proxy Available
+15,PROXYREL_A,Proxy's Relationship to Sample Adult
+16,AGEP_A,Age of SA (top coded)
+17,AGE65,Age 65 or older
+18,SEX_A,Sex of Sample Adult
+19,EDUC_A,Educational level of sample adult
+20,AFNOW,Full-time active duty screener
+21,HISP_A,Recode: Hispanic ethnicity of SA
+22,HISPALLP_A,Single and multiple race groups with Hispanic origin
+23,HISDETP_A,Hispanic origin detail
+24,RACEALLP_A,Single and multiple race groups
+25,PCNTTC,Top-coded count of all non-deleted household members
+26,PCNT18UPTC,Top-coded count of persons 18 or older in the household
+27,PCNTLT18TC,Top-coded count of persons under 18 in the household
+28,PCNTFAM_A,"Number of persons in Sample Adult family, top-coded 6+"
+29,PCNTADLT_A,"Number of adults in Sample Adult family, top-coded 3+"
+30,PCNTKIDS_A,"Number of children in Sample Adult family, top-coded 3+"
+31,OVER65FLG_A,Indicator for at least 1 person aged 65+ in SA family
+32,MLTFAMFLG_A,Indicator for multifamily households
+33,MAXEDUC_A,"Highest level of education of all the adults in SA'sfamily"
+34,PHSTAT_A,General health status
+35,HYPEV_A,Ever been told you had hypertension
+36,HYPDIF_A,Told had hypertension on two or more visits
+37,HYP12M_A,"Hypertension, past 12 months"
+38,HYPMED_A,Now taking high blood pressure medication
+39,CHLEV_A,Ever told you had high cholesterol
+40,CHL12M_A,"High cholesterol, past 12 months"
+41,CHLMED_A,Now taking cholesterol medication
+42,CHDEV_A,Ever been told you had coronary heart disease
+43,ANGEV_A,Ever been told you had angina
+44,MIEV_A,Ever been told you had a heart attack
+45,STREV_A,Ever been told you had a stroke
+46,ASEV_A,Ever had asthma
+47,ASTILL_A,Still have asthma
+48,ASAT12M_A,Asthma episode
+49,ASER12M_A,Asthma ER visit
+50,ASHOSP12M_A,Hospitalized for asthma past 12 months
+51,ASDYS12MTC_A,Days can't work because of asthma
+52,ASINHALE3M_A,Inhaler for asthma past 3 months
+53,ASPREVR_A,Preventive asthma medication
+54,ASJOB_A,Job cause/worsen asthma
+55,CANEV_A,Ever been told you had cancer
+56,BLADDCAN_A,Bladder cancer mentioned
+57,BLADDAGETC_A,Age when first told had bladder cancer
+58,BLOODCAN_A,Blood cancer mentioned
+59,BLOODAGETC_A,Age when first told had blood cancer
+60,BONECAN_A,Bone cancer mentioned
+61,BONEAGETC_A,Age when first told had bone cancer
+62,BRAINCAN_A,Brain cancer mentioned
+63,BRAINAGETC_A,Age when first told had brain cancer
+64,BREASCAN_A,Breast cancer mentioned
+65,BREASAGETC_A,Age when first told had breast cancer
+66,CERVICAN_A,Cervical cancer mentioned
+67,CERVIAGETC_A,Age when first told had cervical cancer
+68,COLONCAN_A,Colon cancer mentioned
+69,COLONAGETC_A,Age when first told had colon cancer
+70,ESOPHCAN_A,Esophageal cancer mentioned
+71,ESOPHAGETC_A,Age when first told had esophageal cancer
+72,GALLBCAN_A,Gallbladder cancer mentioned
+73,GALLBAGETC_A,Age when first told had gallbladder cancer
+74,LARYNCAN_A,Larynx-trachea cancer mentioned
+75,LARYNAGETC_A,Age when first told had larynx-trachea cancer
+76,LEUKECAN_A,Leukemia mentioned
+77,LEUKEAGETC_A,Age when first told had leukemia
+78,LIVERCAN_A,Liver cancer mentioned
+79,LIVERAGETC_A,Age when first told had liver cancer
+80,LUNGCAN_A,Lung cancer mentioned
+81,LUNGAGETC_A,Age when first told had lung cancer
+82,LYMPHCAN_A,Lymphoma cancer mentioned
+83,LYMPHAGETC_A,Age when first told had lymphoma
+84,MELANCAN_A,Melanoma cancer mentioned
+85,MELANAGETC_A,Age when first told had melanoma cancer
+86,MOUTHCAN_A,"Mouth, tongue or lip cancer mentioned"
+87,MOUTHAGETC_A,"Age when first told had mouth, tongue or lip cancer"
+88,OVARYCAN_A,Ovarian cancer mentioned
+89,OVARYAGETC_A,Age when first told had ovarian cancer
+90,PANCRCAN_A,Pancreatic cancer mentioned
+91,PANCRAGETC_A,Age when first told had pancreatic cancer
+92,PROSTCAN_A,Prostate cancer mentioned
+93,PROSTAGETC_A,Age when first told had prostate cancer
+94,RECTUCAN_A,Rectal cancer mentioned
+95,RECTUAGETC_A,Age when first told had rectal cancer
+96,SKNMCAN_A,Skin melanoma cancer mentioned
+97,SKNMAGETC_A,Age when first told had skin melanoma cancer
+98,SKNNMCAN_A,Skin non-melanoma cancer mentioned
+99,SKNNMAGETC_A,Age when first told skin non-melanoma cancer
+100,SKNDKCAN_A,Skin cancer (don't know what kind) mentioned
+101,SKNDKAGETC_A,"Age when first told had skin cancer (don't know whatkind)"
+102,STOMACAN_A,Stomach cancer mentioned
+103,STOMAAGETC_A,Age when first told had stomach cancer
+104,THROACAN_A,Throat - pharynx cancer mentioned
+105,THROAAGETC_A,Age when first told had throat-pharynx cancer
+106,THYROCAN_A,Thyroid cancer mentioned
+107,THYROAGETC_A,Age when first told had thyroid cancer
+108,UTERUCAN_A,Uterine cancer mentioned
+109,UTERUAGETC_A,Age when first told had uterine cancer
+110,HDNCKCAN_A,Head and neck cancers mentioned
+111,HDNCKAGETC_A,Age when first told had head or neck cancer
+112,COLRCCAN_A,Colorectal cancer mentioned
+113,COLRCAGETC_A,Age when first told had colon or rectal cancer
+114,OTHERCANP_A,Other cancer mentioned
+115,OTHERAGETC_A,Age when first told had other cancer
+116,NUMCAN_A,Number of reported types of cancers
+117,PREDIB_A,Ever had prediabetes
+118,GESDIB_A,Gestational diabetes
+119,DIBEV_A,Ever had diabetes
+120,DIBAGETC_A,Age first diagnosed w/diabetes
+121,DIFYRSTC_A,Years since first diagnosed w/diabetes
+122,DIBPILL_A,Taking diabetic pills
+123,DIBINS_A,Taking insulin
+124,DIBINSTIME_A,Time from diabetes to insulin
+125,DIBINSSTOP_A,Ever stop using insulin
+126,DIBINSSTYR_A,Only stop insulin in first year
+127,DIBTYPE_A,Diabetes type
+128,DIBREL_A,Family with diabetes
+129,DIABLAST_A,Last time blood sugar test
+130,COPDEV_A,"Ever been told you had COPD, emphysema, or chronicbronchitis?"
+131,ARTHEV_A,Ever had arthritis
+132,DEMENEV_A,Ever had dementia
+133,ANXEV_A,Ever had anxiety disorder
+134,DEPEV_A,Ever had depression
+135,KIDWEAKEV_A,Ever had weak/failing kidneys
+136,HEPEV_A,Ever had hepatitis
+137,LIVEREV_A,Ever had cirrhosis/liver condition
+138,MEDRXTRT_A,Weakened immune system due to prescriptions
+139,HLTHCOND_A,Weakened immune system due to health condition
+140,PREGNOW_A,Pregnant now
+141,HEIGHTTC_A,"Total height in inches, public use"
+142,WEIGHTLBTC_A,"Weight without shoes (pounds), public use"
+143,BMICAT_A,"Categorical body mass index, public use"
+144,WEARGLSS_A,Wear glasses/contact lenses
+145,VISIONDF_A,Difficulty seeing
+146,HEARAID_A,Use hearing aid
+147,HEARAIDFR_A,How often use hearing aid
+148,HEARINGDF_A,Difficulty hearing
+149,DIFF_A,Difficulty walking/steps
+150,EQUIP_A,Use equipment to get around
+151,WLK100_A,Difficulty walking 100 yards
+152,WLK13M_A,Difficulty walking 1/3 mile
+153,STEPS_A,Difficulty walking steps
+154,CANEWLKR_A,Use cane or walker
+155,WCHAIR_A,Use wheelchair/scooter
+156,PERASST_A,Use someone's assistance
+157,NOEQWLK100_A,Difficulty walking 100 yards without aid
+158,NOEQWLK13M_A,Difficulty walking 1/3 mile without aid
+159,NOEQSTEPS_A,Difficulty walking steps without equipment
+160,EQWLK100_A,Difficulty walking 100 yards with aid
+161,EQWLK13M_A,Difficulty walking 1/3 mile with aid
+162,EQSTEPS_A,Difficulty walking steps with equipment
+163,COMDIFF_A,Difficulty communicating
+164,COGMEMDFF_A,Difficulty remembering/concentrating
+165,COGTYPEDFF_A,Remembering/concentrating or both
+166,COGFRQDFF_A,Difficulty remembering-how often
+167,COGAMTDFF_A,Difficulty remembering-how much
+168,UPPSLFCR_A,Difficulty with self care
+169,UPPRAISE_A,Difficulty raising soda bottle
+170,UPPOBJCT_A,Difficulty using hands and fingers
+171,DISAB3_A,"The Washington Group Short Set Composite DisabilityIndicator"
+172,SOCERRNDS_A,Difficulty doing errands alone
+173,SOCSCLPAR_A,Difficulty participating in social activities
+174,SOCWRKLIM_A,Work limited due to health problem
+175,DEVDONSET_A,Difficulty doing activities before age 22
+176,NOTCOV_A,Coverage status as used in Health United States
+177,COVER_A,Health insurance hierarchy under 65
+178,COVER65_A,Health Insurance hierarchy 65+
+179,SINCOVDE_A,Single service plan - dental
+180,SINCOVVS_A,Single service plan - vision
+181,SINCOVRX_A,Single service plan - prescription
+182,MEDICARE_A,Medicare recode
+183,MCPART_A,Type of Medicare coverage
+184,MCCHOICE_A,Enrolled in Medicare Advantage Plan
+185,MCHMO_A,Medicare HMO
+186,MCADVR_A,Medicare Advantage Plan
+187,MCPARTD_A,Medicare Part D
+188,MEDICAID_A,Medicaid recode
+189,MAXCHNG_A,Medicaid through Marketplace
+190,MAPREM_A,Medicaid premium
+191,MADEDUC_A,Medicaid deductible
+192,MAHDHP_A,Medicaid HDHP
+193,MAFLG_A,Medicaid reassignment flag
+194,PRIVATE_A,Private health insurance recode
+195,EXCHANGE_A,"Plan through Health Insurance Exchange, NCHS algorithm"
+196,POLHLD1_A,Policyholder for private plan 1
+197,PRPLCOV1_A,Plan coverage for others - plan 1
+198,PRPOLH1_A,Relation to policyholder - plan 1
+199,PRPLCOV1_C_A,"Response to PRPLCOV1_C or PRPLCOV2_C  from child - plan1"
+200,PLNWRKR1_A,How plan was originally obtained - plan 1
+201,PLNEXCHG1_A,Health plan obtained through Marketplace - plan 1
+202,PLN1PAY1_A,Paid for by self or family - plan 1
+203,PLN1PAY2_A,Paid for by employer or union - plan 1
+204,PLN1PAY3_A,Paid for by someone outside the household - plan 1
+205,PLN1PAY4_A,Paid for by Medicare - plan 1
+206,PLN1PAY5_A,Paid for by Medicaid - plan 1
+207,PLN1PAY6_A,Paid for by other government program - plan 1
+208,HICOSTR1_A,Out-of-pocket premium cost - plan 1
+209,PRDEDUC1_A,Deductible - plan 1
+210,PRHDHP1_A,High deductible health plan - plan 1
+211,HSAHRA1_A,"Health Savings Accounts / Health Reimbursement Accounts- plan 1"
+212,PRRXCOV1_A,Plan pays for prescription drug - plan 1
+213,PRDNCOV1_A,Plan pays for dental care - plan 1
+214,PRVSCOV1_A,Plan pays for vision care - plan 1
+215,EXCHPR1_A,Exchange company coding NCHS - plan 1
+216,PRFLG_A,Private reassignment flag
+217,PXCHNG1_A,"Marketplace or state exchange, reassigned from public toprivate"
+218,PRPREM1_A,Premium on plan reassigned from public to private
+219,PLEXCHPR1_A,"Exchange company coding, NCHS, reassigned from public toprivate"
+220,POLHLD2_A,Policyholder for private plan 2
+221,PRPLCOV2_A,Plan coverage for others - plan 2
+222,PRPOLH2_A,Relation to policyholder - plan 2
+223,PRPLCOV2_C_A,Response to PRPLCOV1_C or PRPLCOV2_C from child - plan 2
+224,PLNWRKR2_A,How plan was originally obtained - plan 2
+225,PLNEXCHG2_A,Health plan obtained through Marketplace - plan 2
+226,PLN2PAY1_A,Paid for by self or family - plan 2
+227,PLN2PAY2_A,Paid for by employer or union - plan 2
+228,PLN2PAY3_A,Paid for by someone outside the household - plan 2
+229,PLN2PAY4_A,Paid for by Medicare - plan 2
+230,PLN2PAY5_A,Paid for by Medicaid - plan 2
+231,PLN2PAY6_A,Paid for by other government program - plan 2
+232,HICOSTR2_A,Out-of-pocket premium cost - plan 2
+233,PRDEDUC2_A,Deductible - plan 2
+234,PRHDHP2_A,High deductible health plan - plan 2
+235,HSAHRA2_A,"Health Savings Accounts / Health Reimbursement Accounts- plan 2"
+236,PRRXCOV2_A,Plan pays for prescription drug - plan 2
+237,PRDNCOV2_A,Plan pays for dental care - plan 2
+238,PRVSCOV2_A,Plan pays for vision care - plan 2
+239,EXCHPR2_A,Exchange company coding NCHS - plan 2
+240,CHIP_A,Children's Health Insurance Program (CHIP) recode
+241,CHXCHNG_A,CHIP through Marketplace
+242,CHPREM_A,Pay CHIP premium
+243,CHDEDUC_A,CHIP deductible
+244,CHHDHP_A,CHIP HDHP
+245,CHFLG_A,CHIP reassignment flag
+246,OTHPUB_A,State-sponsored health plan recode
+247,OPXCHNG_A,State-sponsored plan through Marketplace
+248,OPPREM_A,Pay premium for state-sponsored plan
+249,OPDEDUC_A,State-sponsored plan deductible
+250,OPHDHP_A,State-sponsored plan HDHP
+251,PLEXCHOP_A,"Exchange company coding, NCHS (state-sponsored plan)"
+252,OPFLG_A,State-sponsored reassignment flag
+253,OTHGOV_A,Other government program recode
+254,OGXCHNG_A,Other government program through Marketplace
+255,OGPREM_A,Pay premium for other government program
+256,OGDEDUC_A,Other government program deductible
+257,OGHDHP_A,Other government program HDHP
+258,PLEXCHOG_A,"Exchange company coding, NCHS (other government program)"
+259,OGFLG_A,Other government reassignment flag
+260,MILITARY_A,Military health care coverage recode
+261,MILSPC1R_A,Types of military health care - VA health care
+262,MILSPC2_A,Types of military health care - TRICARE
+263,MILSPC3_A,Types of military health care - CHAMP-VA
+264,IHS_A,Indian Health Service recode
+265,HILAST_A,How long since last health coverage
+266,HILASTMY_A,Number of months without coverage
+267,HISTOPJOB_A,Lost job or changed employers
+268,HISTOPMISS_A,Missed deadline
+269,HISTOPAGE_A,Ineligible because of age/left school
+270,HISTOPCOST_A,Cost increase
+271,HISTOPELIG_A,"Not eligible for Medicaid, CHIP, or other publiccoverage"
+272,RSNHICOST_A,Not affordable
+273,RSNHIWANT_A,Do not need or want coverage
+274,RSNHIELIG_A,Not eligible for coverage
+275,RSNHICONF_A,Signing up too difficult or confusing
+276,RSNHIMEET_A,Cannot find a plan that meets the needs
+277,RSNHIWAIT_A,Coverage has not started yet
+278,RSNHIOTH_A,Another reason
+279,RSNHIJOB_A,Lost job
+280,RSNHIMISS_A,Missed deadline
+281,HINOTYR_A,No health coverage during the past 12 months
+282,HINOTMYR_A,Months without coverage in the past 12 months
+283,MILSPC1_A,"Types of military health care - VA health care originalresponse"
+284,HICOV_A,Have health insurance
+285,HIKIND01_A,Kind(s) of health insurance - private health insurance
+286,HIKIND02_A,Kind(s) of health insurance - Medicare
+287,HIKIND03_A,"Kind(s) of health insurance - Medicare supplement(Medigap)"
+288,HIKIND04_A,Kind(s) of health insurance - Medicaid
+289,HIKIND05_A,Kind(s) of health insurance - CHIP
+290,HIKIND06_A,"Kind(s) of health insurance - military related healthcare"
+291,HIKIND07_A,Kind(s) of health insurance - Indian Health Service
+292,HIKIND08_A,"Kind(s) of health insurance - State-sponsored healthplan"
+293,HIKIND09_A,Kind(s) of health insurance - Other government program
+294,HIKIND10_A,Kind(s) of health insurance - No coverage of any type
+295,MCAREPRB_A,Medicare coverage probe
+296,MCAIDPRB_A,Medicaid coverage probe
+297,PAYBLL12M_A,"Problems paying medical bills, past 12m"
+298,PAYNOBLLNW_A,Unable to pay medical bills
+299,PAYWORRY_A,"Get sick or have accident, worry about paying medicalbills"
+300,CVDDIAG_A,Ever had COVID-19
+301,COVIDTEST_A,Ever been tested for COVID-19
+302,CVDRSLT_A,Tested positive for COVID-19
+303,CVDSEV_A,Symptoms of COVID-19
+304,DENPREV_A,Time since last dental exam/cleaning
+305,DENDL12M_A,"Delayed dental care due to cost, past 12m"
+306,DENNG12M_A,"Needed dental care but did not get it due to cost, past12m"
+307,LASTDR_A,Time since last saw doctor
+308,WELLNESS_A,Was last visit a wellness visit
+309,WELLVIS_A,Time since last wellness visit
+310,USUALPL_A,Have a usual place to go for care
+311,USPLKIND_A,Type of place for usual care
+312,URGNT12MTC_A,"Number of times visited urgent care, past 12m, top-coded"
+313,EMERG12MTC_A,"Number of times visited hospital emergency room, past12m, top-coded"
+314,HOSPONGT_A,"Hospitalized overnight, past 12m"
+315,MEDDL12M_A,"Delayed medical care due to cost, past 12m"
+316,MEDNG12M_A,"Needed medical care but did not get it due to cost, past12m"
+317,DLYCARE_A,Delayed medical care due to COVID-19
+318,DNGCARE_A,Did not get medical care due to COVID-19
+319,VIRAPP12M_A,"Virtual medical appointment, past 12m"
+320,VIRAPPCVD_A,Virtual medical appointment related to COVID-19
+321,CANCOVTREA_A,"Cancer treatment since the start of the coronaviruspandemic"
+322,CANCOVCHG_A,"Cancer treatment changed, delayed or cancelled due tothe coronavirus pandemic"
+323,CANCOVOTH_A,"Other cancer medical care since the start of thecoronavirus pandemic"
+324,CANCOVCARE_A,"Other cancer care changed, delayed, or cancelled due tocoronavirus pandemic"
+325,RX12M_A,"Took prescription medication, past 12m"
+326,RXSK12M_A,"Skipped medication doses to save money, past 12m"
+327,RXLS12M_A,"Took less medication to save money, past 12m"
+328,RXDL12M_A,"Delayed filling prescription to save money, past 12m"
+329,RXDG12M_A,"Needed prescription medication but did not get it due tocost, past 12m"
+330,OPD12M_A,Opioid use - past 12 months
+331,OPD3M_A,Opioid use - past 3 months
+332,OPDACUTE_A,Opioid use for acute pain
+333,OPDCHRONIC_A,Opioid use for chronic pain
+334,OPDFREQ_A,Frequency of opioid use
+335,PREGFLUYR_A,Was SA pregnant last flu season
+336,LIVEBIRTH_A,Any live births
+337,SHTFLU12M_A,"Flu vaccine, past 12 months"
+338,SHTFLUM_A,Month of last flu vaccine
+339,SHTFLUY_A,Year of last flu vaccine
+340,FLUPREG_A,Was flu shot before or during pregnancy
+341,FLUPREG2_A,earlier pregnancy and flu vaccine
+342,SHTPNUEV_A,Ever had pneumonia shot
+343,SHTPNEUNB_A,Number of pneumonia shots
+344,SHTSHINGLE_A,ever had a shingles vaccination
+345,ZOSTAVAX_A,Ever had Zostavax
+346,ZOSTAVXYRP_A,When was most recent Zostavax shot
+347,ZOSTAWHEN_A,Was Zostavax in 2018 or before 2018
+348,SHINGRIX_A,Ever had Shingrix vaccination
+349,SHINGRIXNB_A,How many Shingrix shots
+350,SHINGRXYRP_A,What year did you get your most recent Shingrix shot
+351,SHINGWHEN_A,Was last Shingrix in 2018 or before 2018
+352,TDAPPREG_A,Have a Tdap booster shot
+353,WORKHEALTH_A,Currently provide medical care to patients
+354,WRKHLTHFC_A,Currently volunteer or work in health care
+355,EYEEX12M_A,"Had eye exam, past 12m"
+356,THERA12M_A,"Received physical/speech/rehabilitative/occupationaltherapy, past 12m"
+357,HOMEHC12M_A,"Received care at home, past 12m"
+358,HOMECAREDG_A,Did not get home care due to COVID-19
+359,FAMCARE12M_A,Received home care from friend/family
+360,FAMCAREDNG_A,Did not get family care due to COVID-19
+361,FAMCARECVD_A,Received family care due to COVID-19
+362,ANXFREQ_A,"How often feel worried, nervous, or anxious"
+363,ANXMED_A,Take medication for worried/nervous/anxious feelings
+364,ANXLEVEL_A,Level of feelings when last felt worried/nervous/anxious
+365,DEPFREQ_A,How often depressed
+366,DEPMED_A,Take medication for depression
+367,DEPLEVEL_A,Level of how depressed
+368,MHRX_A,"Took medicine for otheremotions/concentration/behavior/mental health, past 12m"
+369,MHTHRPY_A,"Received counseling/therapy from mental healthprofessional, past 12m"
+370,MHTPYNOW_A,"Currently receiving counseling/therapy from mentalhealth professional"
+371,MHTHDLY_A,"Delayed counseling/therapy due to cost, past 12m"
+372,MHTHND_A,"Needed counseling/therapy but did not get it due tocost, past 12m"
+373,PAIFRQ3M_A,How often had pain
+374,PAIAMNT_A,How much pain last time
+375,PAIWKLM3M_A,How often pain limits life/work
+376,PAIAFFM3M_A,How often pain impacts family
+377,PAIOTCMEDS_A,Over-the-counter medications for pain
+378,PAIPRSMEDS_A,Pain reliever prescribed by a doctor for pain
+379,PAIPHYSTPY_A,Physical therapy for pain
+380,PAICHIRO_A,Chiropractic care for pain
+381,PAITALKTPY_A,Talk therapy for pain
+382,PAIYOGA_A,Yoga for pain
+383,PAIEXRCISE_A,Exercise for pain
+384,PAIMASSAGE_A,Massage for pain
+385,PAIMEDITAT_A,Meditation for pain
+386,PAIMOTHER_A,Other methods for pain
+387,REPSTRAIN_A,"Repetitive strain injuries, past 3m"
+388,REPLIMIT_A,Limited by repetitive strain in past 3m
+389,REPSAWDOC_A,Saw or talked to talked about repetitive strain injury
+390,REPWRKDYTC_A,Number of days missed due to repetitive strain injury
+391,REPFUTWRK_A,Any future days of missed work due to injury
+392,REPSTOPCHG_A,Stopped or changed job due to repetitive strain
+393,REPREDUCE_A,"Reduced work, changed tasks due to repetitive straininjury"
+394,REPWRKCAUS_A,Did repetitive strain occur while working
+395,ANYINJURY_A,"Any injury in the past 3 months (not includingrepetitive strains)"
+396,INJLIMIT_A,Limited by injury in the past 3 months
+397,NUMINJTC_A,"Number of non-repetitive strain injuries in the past 3months"
+398,INJHOME_A,Did injury occur at home
+399,INJWORK_A,Did injury occur at work
+400,INJSPORTS_A,Did injury occur while playing sports or exercising
+401,INJFALL_A,Did injury occur because of a fall
+402,INJFALLHOM_A,Did any fall occur at home
+403,INJFALLWRK_A,Did any fall occur at work
+404,INJMOTOR_A,Injury caused by a motor vehicle crash or collision
+405,INJMVTYPE1_A,Motor vehicle accident - driver
+406,INJMVTYPE2_A,Motor vehicle accident - passenger
+407,INJMVTYPE3_A,Motor vehicle accident - bicyclist
+408,INJMVTYPE4_A,Motor vehicle accident - pedestrian
+409,INJMVTYPE5_A,Motor vehicle accident - something else
+410,INJCHORES_A,Did injury occur while doing household activities
+411,INJSAWDOC_A,Saw a doctor about injury
+412,INJER_A,Visited ER for injury
+413,INJHOSP_A,Hospitalized for injury
+414,INJBONES_A,Did injury cause broken bones
+415,INJSTITCH_A,Did injury require stitches or staples
+416,INJWRKDYTC_A,"Number of workdays missed due to injury in the past 3months"
+417,INJFUTWRK_A,Expected workdays missed due to injury
+418,INJSTOPCHG_A,Stopped working or changed jobs due to injury
+419,INJREDUCE_A,Reduced work or changed tasks due to injury
+420,FGEFRQTRD_A,"How often tired, past 3m"
+421,FGELNGTRD_A,How long tiredness lasted
+422,FGELEVTRD_A,Level of tiredness
+423,SMKEV_A,Ever smoked 100 cigarettes
+424,SMKAGE_A,Age started smoking regularly
+425,SMKNOW_A,Now smoke cigarettes
+426,SMKCIGST_A,Cigarette smoking status
+427,CIGNOW_A,Number of cigarettes a day
+428,SMK30D_A,Number of days smoked past month
+429,CIG30D_A,Number of cigarettes on days smoked past month
+430,SMKQTNP_A,Time since quitting smoking-number
+431,SMKQTTP_A,Time since quitting smoking-time period
+432,SMKQTY_A,Years since quit smoking
+433,FORNUMCIG_A,"Usual number of cigarettes per day when smoked fairlyregularly"
+434,FORVARCIG_A,"Average number of cigarettes during longest smokingperiod"
+435,SMKQT12M_A,"Stopped smoking for 1+ day, past 12 months"
+436,SMKTLK_A,"Advised by doctor about quitting cigarettes, past 12months"
+437,ECIGEV_A,Ever used electronic cigarettes
+438,ECIGNOW_A,Now use electronic cigarettes
+439,SMKECIGST_A,Electronic cigarette use status
+440,CIGAREV_A,Ever smoked a cigar
+441,CIGARCUR_A,Now smoke cigars
+442,CIGAR30D_A,"How many days smoked a cigar, past 30 days"
+443,PIPEEV_A,Ever smoked a pipe filled with tobacco
+444,PIPECUR_A,Now smoked pipe filled with tobacco
+445,SMOKELSEV_A,Ever used smokeless tobacco
+446,SMOKELSCUR_A,Now use smokeless tobacco
+447,DRKLIFE_A,Had at least one alcohol drink in lifetime
+448,DRK12MN_A,Days drank alcohol past 12m-number
+449,DRK12MN1_A,Days drank alcohol past 12m-number
+450,DRK12MTP_A,Days drank alcohol past 12m-time period
+451,DRK12MTP1_A,Days drank alcohol past 12m-time period
+452,DRK12MWK_A,"Days drank alcohol per week, past 12m"
+453,DRK12MYR_A,"Days drank alcohol per year, past 12m"
+454,DRKAVG12M_A,Average number of alcohol drinks on days drank
+455,DRKAVG12M1_A,Average number of alcohol drinks on days drank
+456,DRK12ANYR_A,Ever had 12+ alcohol drinks in any one year
+457,DKDRK12AY1_A,Ever had 12+ alcohol drinks in any one year
+458,DRKSTAT_A,Alcohol drinking status
+459,DRKBNG12M_A,"Ever had 4+/5+ alcohol drinks in a day, past 12m"
+460,DRKANY30D_A,"Had any alcohol drink, past 30 days"
+461,DRKBNG30D_A,"Number of times had 4+/5+ alcohol drinks on an occasion,past 30d"
+462,DRKHVY12M_A,Heavy alcohol drinking in the past 12m
+463,DRKADVISE_A,"Advised by doctor to cut alcohol drinking, past 12m"
+464,MODNR_A,Moderate physical activity-number
+465,MODTPR_A,Moderate physical activity-time period
+466,MODFREQW_A,Frequency of moderate physical activity (times per week)
+467,MODLNR_A,Length of moderate physical activity-number
+468,MODLTPR_A,Length of moderate physical activity-time period
+469,MODMIN_A,Duration of moderate physical activity (in minutes)
+470,VIGNR_A,Vigorous physical activity-number
+471,VIGTPR_A,Vigorous physical activity-time period
+472,VIGFREQW_A,Frequency of vigorous physical activity (times per week)
+473,VIGLNR_A,Length of vigorous physical activity-number
+474,VIGLTPR_A,Length of vigorous physical activity-time period
+475,VIGMIN_A,Duration of vigorous physical activity (in minutes)
+476,STRNR_A,Strengthening physical activity-number
+477,STRTPR_A,Strengthening physical activity-time period
+478,STRFREQW_A,"Frequency of strengthening physical activity (times perweek)"
+479,PA18_02R_A,Physical activity met guidelines for aerobic activity
+480,PA18_05R_A,"Physical activity met guidelines for aerobic and/orstrengthening activity"
+481,WLKTRAN_A,"Walk transportation, past 7d"
+482,WLKTRANDAY_A,"How many days transportation walk, past 7d"
+483,WLKTRANTPD_A,"How many times per day transportation walk, past 7d"
+484,WLKTRANTC_A,"Length of walk for transportation top coded at 181minutes"
+485,WLKLEIS_A,"Walk leisure, past 7d"
+486,WLKLEISDAY_A,"How many days leisure walk, past 7d"
+487,WLKLEISTPD_A,"How many times per day leisure walk, past 7d"
+488,WLKLEISTC_A,Length of walk for leisure top-coded at 181 minutes
+489,HOMEWLK_A,Freq walks near own home
+490,ROADSWLK_A,Roads to walk where you live
+491,SHOPSWLK_A,Shops to walk to where live
+492,TRANSITWLK_A,Transit where you live
+493,FUNWLK_A,Fun place to walk where you live
+494,RELAXWLK_A,Places to relax you can walk to where you live
+495,SIDEWLK_A,Sidewalks where you live
+496,TRAFFICWLK_A,Traffic makes it unsafe to walk
+497,CRIMEWLK_A,Crime makes it unsafe to walk
+498,ANIMALWLK_A,Animals make it unsafe to walk
+499,WEATHERWLK_A,How often does weather make it less likely to walk
+500,PEOPLEWLK_A,How often are people walking in front of home
+501,SUNSKIN_A,What would happen to your skin after 1 hour in the sun?
+502,SUNSHADE_A,When you go out on a sunny day do you stay in the shade?
+503,SUNHAT_A,When you go out on a sunny day do wear sun hat?
+504,SUNSHIRT_A,How often wear long-sleeved shirt?
+505,SUNSCREEN_A,How often use sunscreen?
+506,SUNTAN_A,How often try to tan?
+507,ANYSBURN_A,Had any sunburns in past 12 months
+508,NUMBRNTC_A,Number of sunburns top-coded
+509,ADVACTIVE_A,Doctor advised increase activity
+510,ADVEAT_A,Doctor advised to reduce fat or calories
+511,ADVWGTPRG_A,Doctor advised to participate in weight loss plan
+512,NOWACTIVE_A,Are you now increasing your physical activity
+513,NOWEAT_A,Now reducing fat/calories
+514,NOWWGTPRG_A,Now in weight loss program
+515,SLPHOURS_A,Hours of sleep in a 24-hour period
+516,SLPREST_A,"Wake up well rested, past 30 days"
+517,SLPFLL_A,"Trouble falling asleep, past 30 days"
+518,SLPSTY_A,"Trouble staying asleep, past 30 days"
+519,SLPMED_A,"Take medication for sleep, past 30 days"
+520,SUPPORT_A,How often social/emotional support
+521,CMPSUPPORT_A,"Social/emotional support, past 12 months"
+522,ORIENT_A,Sexual orientation
+523,MARITAL_A,Sample adult's current marital status
+524,SPOUSLIV_A,Sample adult's spouse lives here
+525,SPOUSEP_A,"Sample adult's spouse does not reside here due to legalseparation"
+526,EVRMARRIED_A,Sample adult has ever been married
+527,MARSTAT_A,Current marital status of sample adult
+528,LEGMSTAT_A,Legal marital status of sample adult
+529,SPOUSESEX_A,Sex of sample adult's spouse
+530,SASPPRACE_A,Race of sample adult and spouse or partner are the same
+531,SASPPHISP_A,"Hispanic ethnicity of sample adult and spouse or partnerare the same"
+532,SPOUSAGETC_A,"Age of sample adult's spouse, top-coded"
+533,SPOUSEDUC_A,Education level of sample adult's spouse
+534,SPOUSWRK_A,Working status of sample adult's spouse
+535,SPOUSWKFT_A,Sample adult's spouse is working full-time
+536,PRTNRSEX_A,Sex of the sample adult's partner
+537,PRTNRAGETC_A,"Age of sample adult's partner, top-coded"
+538,PRTNREDUC_A,Education level of sample adult's partner
+539,PRTNRWRK_A,Working status of sample adult's partner
+540,PRTNRWKFT_A,Sample adult's partner is working full-time
+541,SAPARENTSC_A,Sample adult relationship to sample child
+542,PARSTAT_A,Parental Status of sample adult
+543,AFVET_A,Ever serve active duty military
+544,AFVETTRN_A,Reserves or National Guard
+545,COMBAT_A,Ever served abroad during armed conflict
+546,VADISB_A,Have VA disability rating
+547,VAHOSP_A,Receive care at VA facility
+548,VACAREEV_A,Ever use VA health care
+549,NATUSBORN_A,Born in U.S. or U.S. territory
+550,YRSINUS_A,Years that sample adult has been in the United States
+551,CITZNSTP_A,Citizenship status
+552,SCHCURENR_A,Currently in school
+553,SCHDYMSSTC_A,"Days missed due to illness/injury, past 12 m"
+554,EMPWRKLSWK_A,Worked last week
+555,EMPWKHRS2_A,Hours worked last week (topcoded for Public Use)
+556,EMPWRKFT_A,Usually work 35+ hours per week
+557,EMPRSNOWK_A,Main reason for not working last week
+558,EMPLSTWORK_A,Last time worked for pay
+559,EMDINDSTR1_A,Detailed 2-digit recode for sample adult's industry
+560,EMDINDSTR2_A,Simple 2-digit recode for sample adult's industry
+561,EMDOCCUPR1_A,Detailed 2-digit recode for sample adult's occupation
+562,EMDOCCUPR2_A,Simple 2-digit recode for sample adult's occupation
+563,EMDSPRVIS_A,Sample adult supervised other employees while on the job
+564,EMDWRKCAT_A,Type of main job
+565,EMPPDSKLV_A,Received paid sick leave at last week's job or business
+566,EMPOFFHI_A,Health insurance offered at job held last week
+567,EMPDYSMSS2_A,"Days missed work in past 12 months due toillness/injury/disability (top-coded)"
+568,CURJOBSD_A,Current job - Social distancing at work
+569,WRKCLSSD_A,"Current job - Work close to others with socialdistancing in effect"
+570,WRKCLSNOSD_A,"Current job - Work close to others when socialdistancing not in effect"
+571,WRKCLSOFT_A,Current job - How often work close to others
+572,SDMSRS_A,"Current job - Social distancing measures sincecoronavirus pandemic"
+573,SDMSRSOFT_A,"Current job - Work close to others when socialdistancing measures in effect"
+574,RECJOBSD_A,Recent job - Social distancing at work
+575,RJWRKCLSSD_A,"Recent job - Work close to others with social distancingin effect"
+576,RJWCLSNOSD_A,"Recent job - Work close to others when social distancingnot in effect"
+577,RJWKCLSOFT_A,Recent job - How often work close to others
+578,JOBANYSD_A,Current or recent job - Social distancing at any time
+579,CLSWRKSD_A,"Current or recent job - Work close to others with socialdistancing in effect"
+580,CLSWRKNOSD_A,"Current or recent job - Work close to others when nosocial distancing measures"
+581,PCNTADTWKP_A,"Number of adults in sample adult's family who areworking"
+582,PCNTADTWFP_A,"Number of adults in sample adult's family who areworking full-time"
+583,INCWRKO_A,Income from wages
+584,INCINTER_A,Income from accounts
+585,INCSSRR_A,Income from SS/Railroad Retirement
+586,INCSSISSDI_A,Family income from SSDI
+587,SSISSDIBTH_A,Which family income SSI/SSDI
+588,SSISSDIDSB_A,SSI/SSDI due to disability
+589,INCWELF_A,Income from public assistance
+590,INCRETIRE_A,Income from retirement
+591,INCOTHR_A,Income from other sources
+592,FAMINCTC_A,Sample adult family income (top-coded)
+593,POVRATTC_A,SA family poverty ratio (top-coded)
+594,INCGRP_A,Sample adult family income (grouped)
+595,RATCAT_A,"Ratio of family income to poverty threshold for SA'sfamily"
+596,IMPINCFLG_A,Imputed SA family income imputation flag
+597,INCTCFLG_A,Sample adult family income top-code flag
+598,FSNAP12M_A,"Receive food stamps, past 12m"
+599,FSNAP30D_A,"Receive food stamps, past 30d"
+600,FWIC12M_A,"Receive WIC benefits, past 12m"
+601,FLUNCH12M_A,Receive free/reduced meals at school
+602,FDSRUNOUT_A,Worry food would run out
+603,FDSLAST_A,Food didn't last
+604,FDSBALANCE_A,Couldn't afford to eat balanced meals
+605,FDSSKIP_A,Cut the size of meals or skip meals
+606,FDSSKIPDYS_A,"How many days did you/adults in the family cut the sizeof meals or skip meals"
+607,FDSLESS_A,Eat less than should
+608,FDSHUNGRY_A,Ever hungry because not enough money for food
+609,FDSWEIGHT_A,Lose weight because not enough money for food
+610,FDSNOTEAT_A,not eat for a whole day
+611,FDSNEDAYS_A,How many days not eat
+612,FDSCAT3_A,Adult 3 category food security recode
+613,FDSCAT4_A,Adult  4 category food security recode
+614,HOUYRSLIV_A,Length of time in house/apartment
+615,HOUTENURE_A,Residence owned/rented
+616,HOUGVASST_A,Paying lower rent

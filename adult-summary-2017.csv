@@ -1,0 +1,703 @@
+,Variable Name,Description
+0,RECTYPE,File type identifier
+1,SRVY_YR,Year of National Health Interview Survey
+2,HHX,Household Number
+3,INTV_QRT,Interview Quarter
+4,INTV_MON,Assignment/Interview Month
+5,FMX,Family Number
+6,FPX,Person Number (Within family)
+7,WTIA_SA,Weight - Interim Annual
+8,WTFA_SA,Weight - Final Annual
+9,REGION,Region
+10,PSTRAT,Pseudo-stratum for public-use file variance estimation
+11,PPSU,Pseudo-PSU for public-use file variance estimation
+12,SEX,Sex
+13,HISPAN_I,Hispanic subgroup detail
+14,RACERPI2,OMB groups w/multiple race
+15,MRACRPI2,Race coded to single/multiple race group
+16,MRACBPI2,Race coded to single/multiple race group
+17,AGE_P,Age
+18,R_MARITL,Marital Status
+19,PAR_STAT,Sample adult is parent to 1+ minor child(ren) in the family
+20,PROXYSA,Sample adult status
+21,PROX1,Knowledgeable proxy for Sample Adult available
+22,PROX2,Relationship of SA proxy to SA
+23,LATEINTA,Late Sample Adult interviews
+24,FDRN_FLG,Disability Questions flag
+25,DOINGLWA,Corrected employment status last week
+26,WHYNOWKA,Main reason for not working last week
+27,EVERWRK,Ever worked
+28,INDSTRN1,Detailed industry classification based on 2012 Census codes
+29,INDSTRN2,Simple industry classification based on 2012 Census codes
+30,OCCUPN1,Detailed occupation classification based on 2010 Census Codes
+31,OCCUPN2,Simple occupation classification based on 2010 Census codes
+32,SUPERVIS,Supervise other employees as part of job
+33,WRKCATA,Class of worker
+34,BUSINC1A,Current job an incorporated business
+35,LOCALL1B,Number of employees at work
+36,YRSWRKPA,Number of years on the job
+37,WRKLONGH,Current/most recent job also longest held job
+38,HOURPDA,Paid by the hour at current or most recent job
+39,PDSICKA,Paid sick leave at current or most recent job
+40,ONEJOB,Have more than one job
+41,WRKLYR4,"Work status: last week, past 12 months"
+42,HYPEV,Ever been told you have hypertension
+43,HYPDIFV,Ever had hypertension on 2+ visits
+44,HYPYR1,"Had hypertension, past 12 months"
+45,HYBPCKNO,Last time blood pressure checked by health professional (# units)
+46,HYBPCKTP,Last time blood pressure checked by health professional (time units)
+47,HYBPLEV,Results of last blood pressure check
+48,HYPMDEV2,Ever prescribed medicine for high blood pressure
+49,HYPMED2,Now taking prescribed medicine for high blood pressure
+50,CHLEV,Ever told you had high cholesterol
+51,CHLYR,"Had high cholesterol, past 12 months"
+52,CLCKNO,How long since blood cholesterol checked by health professional (# units)
+53,CLCKTP,How long since blood cholesterol checked by health professional (time units)
+54,CHLMDEV2,Ever prescribed medicine to lower cholesterol
+55,CHLMDNW2,Now taking prescribed medicine to lower cholesterol
+56,CHDEV,Ever been told you had coronary heart disease
+57,ANGEV,Ever been told you had angina pectoris
+58,MIEV,Ever been told you had a heart attack
+59,HRTEV,Ever been told you had a heart condition/disease
+60,STREV,Ever been told you had a stroke
+61,EPHEV,Ever been told you had emphysema
+62,JAWP,"Jaw, neck, or back pain a symptom of heart attack"
+63,WEA,"Feeling weak, lightheaded, or faint a symptom of heart attack"
+64,CHE,Chest pain or discomfort a symptom of heart attack
+65,ARM,Pain or discomfort in arms or shoulder a symptom of heart attack
+66,BRTH,Shortness of breath a symptom of heart attack
+67,AHADO,What is best thing to do if someone is having a heart attack
+68,FACE,Sudden numbness of face/arm/leg a symptom of having stroke
+69,SPEAKING,Sudden confusion or trouble speaking a symptom of having stroke
+70,EYE,Sudden trouble seeing in one/both eyes a symptom of having stroke
+71,WALKING,Sudden trouble walking/dizziness/loss of balance  symptom of having stroke
+72,HEADACHE,Sudden severe headache with no known cause a symptom of having stroke
+73,ASTDO,What is best thing to do if someone is having a stroke
+74,COPDEV,Ever been told you had COPD
+75,ASPMEDEV,Ever been told to take low-dose aspirin
+76,ASPMEDAD,Following low-dose aspirin advice
+77,ASPMDMED,Advised to stop taking low-dose aspirin
+78,ASPONOWN,Taking low-dose aspirin on own
+79,AASMEV,Ever been told you had asthma
+80,AASSTILL,Still have asthma
+81,AASMYR,Had an asthma episode/attack past 12 m
+82,AASERYR1,Had visit to ER due to asthma past 12 m
+83,ULCEV,Ever been told you have an ulcer
+84,ULCYR,Had ulcer in past 12 m
+85,CANEV,Ever told by a doctor you had cancer
+86,CNKIND1,What kind of cancer ... Bladder
+87,CNKIND2,What kind of cancer ... Blood
+88,CNKIND3,What kind of cancer ... Bone
+89,CNKIND4,What kind of cancer ... Brain
+90,CNKIND5,What kind of cancer ... Breast
+91,CNKIND6,What kind of cancer ... Cervix
+92,CNKIND7,What kind of cancer ... Colon
+93,CNKIND8,What kind of cancer ... Esophagus
+94,CNKIND9,What kind of cancer ... Gallbladder
+95,CNKIND10,What kind of cancer ... Kidney
+96,CNKIND11,What kind of cancer ... larynx-windpipe
+97,CNKIND12,What kind of cancer ... Leukemia
+98,CNKIND13,What kind of cancer ... Liver
+99,CNKIND14,What kind of cancer ... Lung
+100,CNKIND15,What kind of cancer ... Lymphoma
+101,CNKIND16,What kind of cancer ... Melanoma
+102,CNKIND17,What kind of cancer ... mouth/tongue/lip
+103,CNKIND18,What kind of cancer ... Ovary
+104,CNKIND19,What kind of cancer ... Pancreas
+105,CNKIND20,What kind of cancer ... Prostate
+106,CNKIND21,What kind of cancer ... Rectum
+107,CNKIND22,What kind of cancer ... skin (non-melanoma)
+108,CNKIND23,What kind of cancer ... skin (DK kind)
+109,CNKIND24,What kind of cancer ... soft tissue (muscle or fat)
+110,CNKIND25,What kind of cancer ... Stomach
+111,CNKIND26,What kind of cancer ... Testis
+112,CNKIND27,What kind of cancer ... throat - pharynx
+113,CNKIND28,What kind of cancer ... Thyroid
+114,CNKIND29,What kind of cancer ... Uterus
+115,CNKIND30,What kind of cancer ... Other
+116,CNKIND31,What kind of cancer ... more than 3 kinds
+117,CANAGE1,Age first diagnosed w/bladder cancer
+118,CANAGE2,Age first diagnosed w/blood cancer
+119,CANAGE3,Age first diagnosed w/bone cancer
+120,CANAGE4,Age first diagnosed w/brain cancer
+121,CANAGE5,Age first diagnosed w/breast cancer
+122,CANAGE6,Age first diagnosed w/cervical cancer
+123,CANAGE7,Age first diagnosed w/colon cancer
+124,CANAGE8,Age first diagnosed w/esophageal cancer
+125,CANAGE9,Age first diagnosed w/gallbladder cancer
+126,CANAGE10,Age first diagnosed w/kidney cancer
+127,CANAGE11,Age first diagnosed w/larynx-windpipe cancer
+128,CANAGE12,Age first diagnosed w/leukemia
+129,CANAGE13,Age first diagnosed w/liver cancer
+130,CANAGE14,Age first diagnosed w/lung cancer
+131,CANAGE15,Age first diagnosed w/lymphoma
+132,CANAGE16,Age first diagnosed w/melanoma
+133,CANAGE17,Age first diagnosed w/mouth/tongue/lip cancer
+134,CANAGE18,Age first diagnosed w/ovarian cancer
+135,CANAGE19,Age first diagnosed w/pancreatic cancer
+136,CANAGE20,Age first diagnosed w/prostate cancer
+137,CANAGE21,Age first diagnosed w/rectal cancer
+138,CANAGE22,Age first diagnosed w/skin (non-melanoma) cancer
+139,CANAGE23,Age first diagnosed w/skin (DK kind) cancer
+140,CANAGE24,Age first diagnosed w/soft tissue cancer
+141,CANAGE25,Age first diagnosed w/stomach cancer
+142,CANAGE26,Age first diagnosed w/testicular cancer
+143,CANAGE27,Age first diagnosed w/throat/pharynx cancer
+144,CANAGE28,Age first diagnosed w/thyroid cancer
+145,CANAGE29,Age first diagnosed w/uterine cancer
+146,CANAGE30,Age first diagnosed w/other cancer
+147,PREGEVER,Ever been pregnant
+148,DBHVPAY,"Told to increase physical activity, past 12 m"
+149,DBHVCLY,"Told to reduce fat/calories in diet, past 12 m"
+150,DBHVWLY,"Told to participate in weight loss program, past 12 m"
+151,DBHVPAN,Currently increasing physical activity
+152,DBHVCLN,Currently reducing fat/calories in diet
+153,DBHVWLN,Currently participating in weight loss program
+154,DIBREL,Blood relative ever had diabetes
+155,DIBEV1,Ever been told that you have diabetes
+156,DIBPRE2,Ever had prediabetes or other symptoms
+157,DIBTEST,Time since last had blood test for high blood sugar/diabetes
+158,DIBAGE1,Age first diagnosed w/diabetes
+159,DIFAGE2,Years since first diagnosed w/diabetes
+160,DIBTYPE,Type of diabetes
+161,DIBPILL1,NOW taking diabetic pills
+162,INSLN1,NOW taking insulin
+163,DIBINS2,Length of time before started insulin after diagnosed w/ diabetes
+164,DIBINS3,Ever stopped taking insulin for more than 6 m
+165,DIBINS4,Stopped taking insulin first year after diagnosed w/ diabetes
+166,DIBGDM,First told you had diabetes during pregnancy
+167,DIBBABY,Ever had a baby that weighed 9 lbs. or more
+168,DIBPRGM,Ever participated in year-long program to prevent Type 2 diabetes
+169,DIBREFER,Ever referred to program to prevent Type 2 diabetes
+170,DIBBEGIN,Interested in beginning year-long program to prevent Type 2 diabetes
+171,EPILEP1,Ever told that you have a seizure disorder or epilepsy
+172,EPILEP2,Currently taking  medicine to control your seizure disorder or epilepsy
+173,EPILEP3,Number of seizures of any type in past year
+174,EPILEP4,Seen a neurologist or epilepsy specialist  in past year
+175,EPILEP5,"Did epilepsy or its treatment interfere with normal activities, past 30 days"
+176,AHAYFYR,"Told that you had hay fever, past 12 m"
+177,SINYR,"Told that you had sinusitis, past 12 m"
+178,CBRCHYR,"Told you had chronic bronchitis, 12 m"
+179,KIDWKYR,"Told you had weak/failing kidneys, 12 m"
+180,LIVYR,"Told you had liver condition, past 12 m"
+181,JNTSYMP,Symptoms of joint pain/aching/stiffness past 30 d
+182,JMTHP1,Which joint affected...shoulder-right
+183,JMTHP2,Which joint affected...shoulder-left
+184,JMTHP3,Which joint affected...elbow-right
+185,JMTHP4,Which joint affected...elbow-left
+186,JMTHP5,Which joint affected...hip-right
+187,JMTHP6,Which joint affected...hip-left
+188,JMTHP7,Which joint affected...wrist-right
+189,JMTHP8,Which joint affected...wrist-left
+190,JMTHP9,Which joint affected...knee-right
+191,JMTHP10,Which joint affected...knee-left
+192,JMTHP11,Which joint affected...ankle-right
+193,JMTHP12,Which joint affected...ankle-left
+194,JMTHP13,Which joint affected...toes-right
+195,JMTHP14,Which joint affected...toes-left
+196,JMTHP15,Which joint affected...fingers/thumb-right
+197,JMTHP16,Which joint affected...fingers/thumb-left
+198,JMTHP17,Which joint affected...other joint not listed
+199,JNTCHR,Joint symptoms begin more than 3 months ago
+200,JNTHP,Ever seen doctor or health professional for joint symptoms
+201,ARTH1,Ever been told you had arthritis
+202,ARTHLMT,Limited due to arthritis or joint symptoms
+203,PAINECK,"Had neck pain, past 3 months"
+204,PAINLB,"Had low back pain, past 3 months"
+205,PAINLEG,Pain spread down leg/below knees
+206,PAINFACE,"Had pain in jaw/front of ear, past 3 months"
+207,AMIGR,"Had severe headache/migraine, past 3 m"
+208,ACOLD2W,Had a head/chest cold past 2 w
+209,AINTIL2W,"Had stomach prob w/vomit/diarrhea, 2 w"
+210,PREGNOW,Currently pregnant
+211,PREGFLYR,Recently pregnant
+212,HRAIDNOW,Now use a hearing aid
+213,HRAIDEV,Ever used a hearing aid if not now using
+214,AHEARST1,Hearing w/o hearing aid
+215,AVISION,Trouble seeing even w/glasses/lenses
+216,ABLIND,Blind or unable to see at all
+217,VIM_DREV,EVER been told you had diabetic retinopathy
+218,VIMLS_DR,Lost vision because of diabetic retinopathy
+219,VIM_CAEV,EVER been told you had cataracts
+220,VIMLS_CA,Lost vision because of cataracts
+221,VIMCSURG,Ever had cataract surgery
+222,VIM_GLEV,EVER been told you had glaucoma
+223,VIMLS_GL,Lost vision because of glaucoma
+224,VIM_MDEV,EVER been told you had macular degeneration
+225,VIMLS_MD,Lost vision because of macular degeneration
+226,VIMGLASS,Currently wear eyeglasses or contact lenses?
+227,VIMREAD,Wear eyeglasses or contact lenses to read/write/cook/sew?
+228,VIMDRIVE,Wear eyeglasses or contact lenses to drive/read signs/watch TV?
+229,AVISREH,Use any vision rehabilitation services
+230,AVISDEV,"Use any adaptive devices such as magnifiers, talking materials"
+231,AVDF_NWS,Even when wearing glasses difficult for you to read newspapers
+232,AVDF_CLS,Even when wearing glasses difficult for you to see up close/cook/sew
+233,AVDF_NIT,Even when wearing glasses difficult for you to go down stairs in dim light
+234,AVDF_DRV,Even when wearing glasses difficult for you to drive during daytime
+235,AVDF_PER,Even when wearing glasses difficult for you to notice objects while walking
+236,AVDF_CRD,Even when wearing glasses difficult for you to find something on a crowded
+237,AVISEXAM,Last time you had an eye exam (pupils dilated)
+238,AVISACT,Participate in sports/other activities that can cause eye injury
+239,AVISPROT,"When doing these activities, on average, do you wear eye protection"
+240,LUPPRT,Lost all upper & lower natural teeth
+241,CHPAIN6M,"How often did you have pain, past 6 m"
+242,PAINLMT,"How often did pain limit life/work activities, past 6 m"
+243,WKDAYR,"Number of work loss days, past 12 months"
+244,BEDDAYR,"Number of bed days, past 12 months"
+245,AHSTATYR,"Health better/worse/same, compared w/ 12 months ago"
+246,SPECEQ,Have health problem that requires special equipment
+247,FLWALK,How difficult to walk 1/4 mile without special equipment
+248,FLCLIMB,How difficult to climb 10 steps without special equipment
+249,FLSTAND,How difficult to stand 2 hours without special equipment
+250,FLSIT,How difficult to sit 2 hours without special equipment
+251,FLSTOOP,"How difficult to stoop, bend or kneel without special equipment"
+252,FLREACH,How difficult to reach over head without special equipment
+253,FLGRASP,How difficult to grasp small objects without special equipment
+254,FLCARRY,How difficult to lift/carry 10 lbs without special equipment
+255,FLPUSH,How difficult to push large objects without special equipment
+256,FLSHOP,How difficult to go out to events without special equipment
+257,FLSOCL,How difficult to participate in social activities without special equipment
+258,FLRELAX,How difficult to relax at home without special equipment
+259,FLA1AR,"Any functional limitation, all conditions"
+260,AFLHCA1,Vision/problem seeing causes difficulty with activity
+261,AFLHCA2,Hearing problem causes difficulty with activity
+262,AFLHCA3,Arthritis/rheumatism causes difficulty with activity
+263,AFLHCA4,Back or neck problem causes difficulty with activity
+264,AFLHCA5,"Fracture, bone/joint injury causes difficulty with activity"
+265,AFLHCA6,Other injury causes difficulty with activity
+266,AFLHCA7,Heart problem causes difficulty with activity
+267,AFLHCA8,Stroke problem causes difficulty with activity
+268,AFLHCA9,Hypertension/high blood pressure causes difficulty with activity
+269,AFLHCA10,Diabetes causes difficulty with activity
+270,AFLHCA11,"Lung/breathing problem (e.g., asthma) causes difficulty with activity"
+271,AFLHCA12,Cancer causes difficulty with activity
+272,AFLHCA13,Birth defect causes difficulty with activity
+273,ALHCA14A,"Intellectual disability, AKA mental retardation causes difficulty with activity"
+274,AFLHCA15,"Other developmental problem (eg, cerebral palsy) causes difficulty with activity"
+275,AFLHCA16,Senility causes difficulty with activity
+276,AFLHCA17,Depression/anxiety/emotional problem causes difficulty with activity
+277,AFLHCA18,Weight problem causes difficulty with activity
+278,AFLHC19_,Missing or amputated limb/finger/digit causes difficulty with activity
+279,AFLHC20_,Musculoskeletal/connective tissue problem causes difficulty with activity
+280,AFLHC21_,Circulation problems (including blood clots) cause difficulty with activity
+281,AFLHC22_,Endocrine/nutritional/metabolic problem causes difficulty with activity
+282,AFLHC23_,Nervous system/sensory organ condition causes difficulty with activity
+283,AFLHC24_,Digestive system problem causes difficulty with activity
+284,AFLHC25_,Genitourinary system problem causes difficulty with activity
+285,AFLHC26_,Skin/subcutaneous system problem causes difficulty with activity
+286,AFLHC27_,Blood or blood-forming organ problem causes difficulty with activity
+287,AFLHC28_,Benign tumor/cyst causes difficulty with activity
+288,AFLHC29_,Alcohol/drug/substance abuse problem causes difficulty with activity
+289,AFLHC30_,Other mental problem/ADD/Bipolar/Schizophrenia causes difficulty with
+290,AFLHC31_,Surgical after-effects/medical treatment causes difficulty with activity
+291,AFLHC32_,"""Old age""/elderly/aging-related problem causes difficulty with activity"
+292,AFLHC33_,Fatigue/tiredness/weakness causes difficulty with activity
+293,AFLHC34_,Pregnancy-related problem causes difficulty with activity
+294,AFLHCA90,Other impairment/problem (1) causes difficulty with activity
+295,AFLHCA91,Other impairment/problem (2) causes difficulty with activity
+296,ALTIME1,Duration of vision problem: Number of units
+297,ALUNIT1,Duration of vision problem: Time unit
+298,ALDURA1,"Duration (in years) of vision problem, recode 1"
+299,ALDURB1,"Duration of vision problem, recode 2"
+300,ALCHRC1,Vision problem condition status recode
+301,ALTIME2,Duration of hearing problem: Number of units
+302,ALUNIT2,Duration of hearing problem: Time unit
+303,ALDURA2,"Duration (in years) of hearing problem, recode 1"
+304,ALDURB2,"Duration of hearing problem, recode 2"
+305,ALCHRC2,Hearing problem condition status recode
+306,ALTIME3,Duration of arthritis/rheumatism: Number of units
+307,ALUNIT3,Duration of arthritis/rheumatism: Time unit
+308,ALDURA3,"Duration (in years) of arthritis/rheumatism, recode 1"
+309,ALDURB3,"Duration of arthritis/rheumatism, recode 2"
+310,ALCHRC3,Arthritis/rheumatism condition status recode
+311,ALTIME4,Duration of back or neck problem: Number of units
+312,ALUNIT4,Duration of back or neck problem: Time unit
+313,ALDURA4,"Duration (in years) of back or neck problem, recode 1"
+314,ALDURB4,"Duration of back or neck problem, recode 2"
+315,ALCHRC4,Back or neck problem condition status recode
+316,ALTIME5,"Duration of fracture, bone/joint injury: Number of units"
+317,ALUNIT5,"Duration of fracture, bone/joint injury: Time unit"
+318,ALDURA5,"Duration (in years) of fracture, bone/joint injury, recode 1"
+319,ALDURB5,"Duration of fracture, bone/joint injury, recode 2"
+320,ALCHRC5,"Fracture, bone/joint injury condition status recode"
+321,ALTIME6,Duration of other injury: Number of units
+322,ALUNIT6,Duration of other injury: Time unit
+323,ALDURA6,"Duration (in years) of other injury, recode 1"
+324,ALDURB6,"Duration of other injury, recode 2"
+325,ALCHRC6,Other injury condition status recode
+326,ALTIME7,Duration of heart problem: Number of units
+327,ALUNIT7,Duration of heart problem: Time unit
+328,ALDURA7,"Duration (in years) of heart problem, recode 1"
+329,ALDURB7,"Duration of heart problem, recode 2"
+330,ALCHRC7,Heart problem condition status recode
+331,ALTIME8,Duration of stroke problem: Number of units
+332,ALUNIT8,Duration of stroke problem: Time unit
+333,ALDURA8,"Duration (in years) of stroke problem, recode 1"
+334,ALDURB8,"Duration of stroke problem, recode 2"
+335,ALCHRC8,Stroke problem condition status recode
+336,ALTIME9,Duration of hypertension or high blood pressure: Number of units
+337,ALUNIT9,Duration of hypertension or high blood pressure: Time unit
+338,ALDURA9,Duration (in years) of hypertension or high blood pressure: recode 1
+339,ALDURB9,Duration of hypertension or high blood pressure: recode 2
+340,ALCHRC9,Hypertension or high blood pressure condition status recode
+341,ALTIME10,Duration of diabetes: Number of units
+342,ALUNIT10,Duration of diabetes: Time unit
+343,ALDURA10,"Duration (in years) of diabetes, recode 1"
+344,ALDURB10,"Duration of diabetes, recode 2"
+345,ALCHRC10,Diabetes condition status recode
+346,ALTIME11,"Duration of lung/breathing problem (e.g., asthma and emphysema): Number of"
+347,ALUNIT11,"Duration of lung/breathing problem: (e.g., asthma and emphysema) Time unit"
+348,ALDURA11,"Duration (in years) of lung/breathing problem (e.g., asthma), recode 1"
+349,ALDURB11,"Duration of lung/breathing problem (e.g., asthma and emphysema), recode 2"
+350,ALCHRC11,"Lung/breathing problem (e.g., asthma and emphysema) condition status recode"
+351,ALTIME12,Duration of cancer: Number of units
+352,ALUNIT12,Duration of cancer: Time unit
+353,ALDURA12,"Duration (in years) of cancer, recode 1"
+354,ALDURB12,"Duration of cancer, recode 2"
+355,ALCHRC12,Cancer condition status recode
+356,ALTIME13,Duration of birth defect: Number of units
+357,ALUNIT13,Duration of birth defect: Time unit
+358,ALDURA13,"Duration (in years) of birth defect, recode 1"
+359,ALDURB13,"Duration of birth defect, recode 2"
+360,ALCHRC13,Birth defect condition status recode
+361,ATIME14A,"Duration of intellectual disability, AKA mental retardation: Number of units"
+362,AUNIT14A,"Duration of intellectual disability, also know as mental retardation: Time unit"
+363,ADURA14A,"Duration (in years) of intellectual disability, AKA mental retardation, recode 1"
+364,ADURB14A,"Duration of intellectual disability, also known as mental retardation, recode 2"
+365,ACHRC14A,"Intellectual disability, AKA mental retardation condition status recode"
+366,ALTIME15,"Duration of other developmental problem (e.g., cerebral palsy): Number of units"
+367,ALUNIT15,"Duration of other developmental problem (e.g., cerebral palsy): Time unit"
+368,ALDURA15,"Duration (in years) of other developmental problem (eg cerebral palsy), recode"
+369,ALDURB15,"Duration of other developmental problem (e.g., cerebral palsy), recode 2"
+370,ALCHRC15,"Other developmental problem (e.g., cerebral palsy) condition status recode"
+371,ALTIME16,Duration of senility: Number of units
+372,ALUNIT16,Duration of senility: Time unit
+373,ALDURA16,"Duration (in years) of senility, recode 1"
+374,ALDURB16,"Duration of senility, recode 2"
+375,ALCHRC16,Senility condition status recode
+376,ALTIME17,Duration of depression/anxiety/emotional problem: Number of units
+377,ALUNIT17,Duration of depression/anxiety/emotional problem: Time unit
+378,ALDURA17,"Duration (in years) of depression/anxiety/emotional problem, recode 1"
+379,ALDURB17,"Duration of depression/anxiety/emotional problem, recode 2"
+380,ALCHRC17,Depression/anxiety/emotional problem condition status recode
+381,ALTIME18,Duration of weight problem: Number of units
+382,ALUNIT18,Duration of weight problem: Time unit
+383,ALDURA18,"Duration (in years) of weight problem, recode 1"
+384,ALDURB18,"Duration of weight problem, recode 2"
+385,ALCHRC18,Weight problem condition status recode
+386,ALTIME19,"Duration of missing limbs (fingers, toes); amputation: Number of units"
+387,ALUNIT19,"Duration of missing limbs (fingers, toes, or digits); amputation: Time unit"
+388,ALDURA19,"Duration (in years) of missing limbs (fingers, toes); amputation, recode 1"
+389,ALDURB19,"Duration of missing limbs (fingers, toes, or digits); amputation, recode 2"
+390,ALCHRC19,"Missing limbs (fingers, toes, or digits); amputation condition status recode"
+391,ALTIME20,Duration of musculoskeletal/connective tissue problem: Number of units
+392,ALUNIT20,Duration of musculoskeletal/connective tissue problem: Time unit
+393,ALDURA20,"Duration (in years) of musculoskeletal/connective tissue problem, recode 1"
+394,ALDURB20,"Duration of musculoskeletal/connective tissue problem, recode 2"
+395,ALCHRC20,Musculoskeletal/connective tissue problem condition status recode
+396,ALTIME21,Duration of circulation problems (including blood clots): Number of units
+397,ALUNIT21,Duration of circulation problems (including blood clots): Time unit
+398,ALDURA21,"Duration (in years) of circulation problems (including blood clots), recode 1"
+399,ALDURB21,"Duration of circulation problems (including blood clots), recode 2"
+400,ALCHRC21,Circulation problems (including blood clots) condition status recode
+401,ALTIME22,Duration of endocrine/nutritional/metabolic problem: Number of units
+402,ALUNIT22,Duration of endocrine/nutritional/metabolic problem: Time unit
+403,ALDURA22,"Duration (in years) of endocrine/nutritional/metabolic problem, recode 1"
+404,ALDURB22,"Duration of endocrine/nutritional/metabolic problem, recode 2"
+405,ALCHRC22,Endocrine/nutritional/metabolic problem condition status recode
+406,ALTIME23,Duration of nervous system/sensory organ condition: Number of units
+407,ALUNIT23,Duration of nervous system/sensory organ condition: Time unit
+408,ALDURA23,"Duration (in years) of nervous system/sensory organ condition, recode 1"
+409,ALDURB23,"Duration of nervous system/sensory organ condition, recode 2"
+410,ALCHRC23,Nervous system/sensory organ condition status recode
+411,ALTIME24,Duration of digestive system problems: Number of units
+412,ALUNIT24,Duration of digestive system problems: Time unit
+413,ALDURA24,"Duration (in years) of digestive system problems, recode 1"
+414,ALDURB24,"Duration of digestive system problems, recode 2"
+415,ALCHRC24,Digestive system problems condition status recode
+416,ALTIME25,Duration of genitourinary system problem: Number of units
+417,ALUNIT25,Duration of genitourinary system problem: Time unit
+418,ALDURA25,"Duration (in years) of genitourinary system problem, recode 1"
+419,ALDURB25,"Duration of genitourinary system problem, recode 2"
+420,ALCHRC25,Genitourinary system problem condition status recode
+421,ALTIME26,Duration of skin/subcutaneous system problems: Number of units
+422,ALUNIT26,Duration of skin/subcutaneous system problems: Time unit
+423,ALDURA26,"Duration (in years) of skin/subcutaneous system problems, recode 1"
+424,ALDURB26,"Duration of skin/subcutaneous system problems, recode 2"
+425,ALCHRC26,Skin/subcutaneous system problems condition status recode
+426,ALTIME27,Duration of blood or blood-forming organ problem: Number of units
+427,ALUNIT27,Duration of blood or blood-forming organ problem: Time unit
+428,ALDURA27,"Duration (in years) of blood or blood-forming organ problem, recode 1"
+429,ALDURB27,"Duration of blood or blood-forming organ problem, recode 2"
+430,ALCHRC27,Blood or blood-forming organ problem condition status recode
+431,ALTIME28,Duration of benign tumor/cyst: Number of units
+432,ALUNIT28,Duration of benign tumor/cyst: Time unit
+433,ALDURA28,"Duration (in years) of benign tumor/cyst, recode 1"
+434,ALDURB28,"Duration of benign tumor/cyst, recode 2"
+435,ALCHRC28,Benign tumor/cyst condition status recode
+436,ALTIME29,Duration of alcohol /drug/substance abuse problem: Number of units
+437,ALUNIT29,Duration of alcohol/drug/substance abuse problem: Time unit
+438,ALDURA29,"Duration (in years) of alcohol/drug/substance abuse problem, recode 1"
+439,ALDURB29,"Duration of alcohol/drug/substance abuse problem, recode 2"
+440,ALCHRC29,Alcohol /drug/substance abuse problem condition status recode
+441,ALTIME30,Duration of other mental problem/ADD/Bipolar/Schizophrenia: Number of
+442,ALUNIT30,Duration of other mental problem/ADD/Bipolar/Schizophrenia: Time unit
+443,ALDURA30,"Duration (in years) of other mental problem/ADD/Bipolar/Schizophrenia,"
+444,ALDURB30,"Duration of other mental problem/ADD/Bipolar/Schizophrenia, recode 2"
+445,ALCHRC30,Other mental problem/ADD/Bipolar/Schizophrenia condition status recode
+446,ALTIME31,Duration of surgical after-effects/medical treatment problems: Number of units
+447,ALUNIT31,Duration of surgical after-effects/medical treatment problems: Time unit
+448,ALDURA31,"Duration (in years) of surgical after-effects/medical treatment prob, recode 1"
+449,ALDURB31,"Duration of surgical after-effects/medical treatment problems, recode 2"
+450,ALCHRC31,Surgical after-effects/medical treatment problems condition status recode
+451,ALTIME32,"Duration of ""old age""/elderly/aging-related problems: Number of units"
+452,ALUNIT32,"Duration of ""old age""/elderly/aging-related problems: Time unit"
+453,ALDURA32,"Duration (in years) of ""old age""/elderly/aging-related problems, recode 1"
+454,ALDURB32,"Duration of ""old age""/elderly/aging-related problems, recode 2"
+455,ALCHRC32,"""Old age""/elderly/aging-related problems condition status recode"
+456,ALTIME33,Duration of fatigue/tiredness/weakness problem: Number of units
+457,ALUNIT33,Duration of fatigue/tiredness/weakness problem: Time unit
+458,ALDURA33,"Duration (in years) of fatigue/tiredness/weakness problem, recode 1"
+459,ALDURB33,"Duration of fatigue/tiredness/weakness problem, recode 2"
+460,ALCHRC33,Fatigue/tiredness/weakness problem condition status recode
+461,ALTIME34,Duration of pregnancy-related problem: Number of units
+462,ALUNIT34,Duration of pregnancy-related problem: Time unit
+463,ALDURA34,"Duration (in years) of pregnancy-related problem, recode 1"
+464,ALDURB34,"Duration of pregnancy-related problem, recode 2"
+465,ALCHRC34,Pregnancy-related condition status recode
+466,ALTIME90,Duration of other impairment/problem N.E.C. (1): Number of units
+467,ALUNIT90,Duration of other impairment/problem N.E.C. (1): Time unit
+468,ALDURA90,"Duration (in years) of other impairment/problem N.E.C. (1), recode 1"
+469,ALDURB90,"Duration of other impairment/problem N.E.C. (1), recode 2"
+470,ALCHRC90,Other impairment/problem N.E.C. (1) condition status recode
+471,ALTIME91,Duration of other impairment/problem N.E.C. (2): Number of units
+472,ALUNIT91,Duration of other impairment/problem N.E.C. (2): Time unit
+473,ALDURA91,"Duration (in years) of other impairment/ problem N.E.C. (2), recode 1"
+474,ALDURB91,"Duration of other impairment/problem N.E.C. (2), recode 2"
+475,ALCHRC91,Other impairment/problem N.E.C. (2) condition status recode
+476,ALCNDRT,Chronic condition recode for individual with functional limitation
+477,ALCHRONR,Overall functional limitation recode by condition status
+478,SMKEV,Ever smoked 100 cigarettes
+479,SMKREG,Age first smoked fairly regularly
+480,SMKNOW,Smoke freq: every day/some days/not at all
+481,SMKSTAT2,Smoking Status: Recode
+482,SMKQTNO,Time since quit: # of units
+483,SMKQTTP,Time since quit: time period
+484,SMKQTY,Time since quit smoking (in years)
+485,CIGSDA1,Number cigs per day (daily smokers)
+486,CIGDAMO,Number days smoked in past 30 days
+487,CIGSDA2,Number cigs per day (some day smokers)
+488,CIGSDAY,Number of cigarettes a day (all current smokers)
+489,CIGQTYR,"Tried quit smoking 1+ days, past 12 m"
+490,ECIGEV2,"Ever used electronic cigarettes (e-cig), even once"
+491,ECIGCUR2,E-cig freq: every day/some days/not at all
+492,ECIG30D2,"Number of days used e-cigarettes, past 30 days"
+493,CIGAREV2,"Ever smoked a regular cigar, cigarillo, or little filtered cigar, even once"
+494,CIGCUR2,"Smoke freq:every day/some days/not at all-cigars,cigarillos,or lil' filtered cig"
+495,CIG30D2,"Number of days smoked cigar, cigarillo, or little filtered cigar, past 30 days"
+496,PIPEV2,"Ever smoked pipe filled w/tobacco - either pipe,water pipe,or hookah,even once"
+497,PIPECUR2,"Smoke freq: every day/some days/not at all - either pipes,water pipes,or"
+498,SMKLSTB1,"Ever used smokeless tobacco products, even once"
+499,SMKLSCR2,Smokeless tobacco freq: every day/some days/not at all
+500,VIGNO,Freq vigorous activity: # of units
+501,VIGTP,Freq vigorous activity: Time units
+502,VIGFREQW,Freq vigorous activity (times per wk)
+503,VIGLNGNO,Duration vigorous activity: # units
+504,VIGLNGTP,Duration vigorous activity: Time unit
+505,VIGMIN,Duration vigorous activity (in minutes)
+506,MODNO,Freq moderate activity: # of units
+507,MODTP,Freq moderate activity: Time units
+508,MODFREQW,Freq light/moderate activity (times per wk)
+509,MODLNGNO,Duration moderate activity: # of units
+510,MODLNGTP,Duration moderate activity: Time unit
+511,MODMIN,Duration light/moderate activity (in minutes)
+512,STRNGNO,Strength activity freq: # of units
+513,STRNGTP,Strength activity freq: Time units
+514,STRFREQW,Freq strength activity (times per wk)
+515,ALC1YR,Ever had 12+ drinks in any  one year
+516,ALCLIFE,Had 12+ drinks in ENTIRE LIFE
+517,ALC12MNO,Freq drank alcohol pst yr:  # of units
+518,ALC12MTP,Freq drank alcohol pst yr:  Time unit
+519,ALC12MWK,Freq drank alcohol: Days per week
+520,ALC12MYR,Freq drank alcohol: Days in past year
+521,ALCAMT,Average # drinks on days drank
+522,ALCSTAT,Alcohol drinking status: Recode
+523,ALC5UPN1,"Days 5+/4+ drinks, past yr: # days"
+524,ALC5UPT1,"Days 5+/4+ drinks, past yr: Time unit"
+525,ALC5UPY1,Number of days had 5+/4+ drinks past year
+526,BINGE1,"Number of times had 5+/4+ drinks on AN OCCASION, past 30 days"
+527,AHEIGHT,Total height in inches
+528,AWEIGHTP,Weight without shoes (pounds)
+529,BMI,Body Mass Index (BMI)
+530,AUSUALPL,Place USUALLY go when sick
+531,APLKIND,Place to go when sick (most often)
+532,AHCPLROU,USUALLY go there for routine/preventive care
+533,AHCPLKND,Place USUALLY go for routine/preventive care
+534,AHCCHGYR,"Change health care place, past 12 m"
+535,AHCCHGHI,Change related to health insurance
+536,APRVTRYR,"Trouble finding a doctor/provider, past 12 m"
+537,APRVTRFD,"Able to find doctor/provider, past 12 m"
+538,ADRNANP,"Doctor's office not accept you as new patient, past 12 m"
+539,ADRNAI,"Doctor's office not accept your health insurance, past 12 m"
+540,AHCDLYR1,"Couldn't get through on phone, past 12 m"
+541,AHCDLYR2,"Couldn't get appointment soon enough, past 12 m"
+542,AHCDLYR3,"Wait too long in doctor's office, past 12 m"
+543,AHCDLYR4,"Not open when you could go, past 12 m"
+544,AHCDLYR5,"No transportation, past 12 m"
+545,AHCAFYR1,"Couldn't afford prescription medicine, past 12 m"
+546,AHCAFYR2,"Couldn't afford mental health care/counseling, past 12 m"
+547,AHCAFYR3,"Couldn't afford dental care, past 12 m"
+548,AHCAFYR4,"Couldn't afford eyeglasses, past 12 m"
+549,AHCAFYR5,"Couldn't afford to see a specialist, past 12 m"
+550,AHCAFYR6,"Couldn't afford follow-up care, past 12 m"
+551,AWORPAY,"Get sick or have accident, worried about paying medical bills"
+552,AHICOMP,Health insurance coverage compared to a year ago
+553,ARX12MO,"Prescribed medication by doctor/health professional, past 12 m"
+554,ARX12_1,"Skipped medication doses to save money, past 12 m"
+555,ARX12_2,"Took less medicine to save money, past 12 m"
+556,ARX12_3,"Delayed filling a prescription to save money, past 12 m"
+557,ARX12_4,"Asked doctor for lower cost medication to save money, past 12 m"
+558,ARX12_5,"Bought prescription drugs from another country to save money, past 12 m"
+559,ARX12_6,"Used alternative therapies to save money, past 12 m"
+560,ADNLONG2,Time since last saw a dentist
+561,AHCSYR1,"Seen/talked to mental health professional, past 12 m"
+562,AHCSYR2,"Seen/talked to eye doctor, past 12 m"
+563,AHCSYR3,"Seen/talked to foot doctor, past 12 m"
+564,AHCSYR4,"Seen/talked to a chiropractor, past 12 m"
+565,AHCSYR5,"Seen/talked to therapist (PT/OT/etc.), past 12 m"
+566,AHCSYR6,"Seen/talked to a NP/PA/midwife, past 12 m"
+567,AHCSYR7,"Seen/talked to OB/GYN, past 12 m"
+568,AHCSYR8,"Seen/talked to a medical specialist, past 12 m"
+569,AHCSYR9,"Seen/talked to a general doctor, past 12 m"
+570,AHCSYR10,Doctor treats both kids and adults
+571,AHERNOY2,"# times in ER/ED, past 12 m"
+572,AERVISND,ER visit at night or on weekend
+573,AERHOS,ER visit resulted in hospital admission
+574,AERREA1R,ER visit because didn't have another place to go
+575,AERREA2R,ER visit because doctors office or clinic was not open
+576,AERREA3R,ER visit because advised by health provider to go
+577,AERREA4R,ER visit because problem too serious for doctor's office/clinic
+578,AERREA5R,ER visit because only hospital could help
+579,AERREA6R,ER visit because it is closest provider
+580,AERREA7R,ER visit because it is usual place to get care
+581,AERREA8R,Arrived at ER by ambulance/other emergency vehicle
+582,AHCHYR,"Received home care from health professional, past 12 m"
+583,AHCHMOYR,"# months of home care, past 12 m"
+584,AHCHNOY2,Total number of home visits
+585,AHCNOYR2,"Total number of office visits, past 12 m"
+586,ASRGYR,"Surgery/surgical procedure, past 12 m"
+587,ASRGNOYP,"# of surgeries, past 12 m"
+588,AMDLONGR,Time since last seen/talked to health professional
+589,HIT1A,"Looked up health information on Internet, past 12 m"
+590,HIT2A,"Filled a prescription on Internet, past 12 m"
+591,HIT3A,"Scheduled medical appointment on Internet, past 12 m"
+592,HIT4A,"Communicated with health care provider by email, past 12 m"
+593,HIT5A,"Used chat groups to learn about health topics, past 12 m"
+594,FLUVACYR,"Flu vaccination, past 12 m"
+595,FLUVACTP,Administration method of most recent flu vaccine
+596,FLUVAC_M,Month of most recent flu vaccine
+597,FLUVAC_Y,Year of most recent flu vaccine
+598,FLUSHPG1,"Flu shot before/during current pregnancy, interviewed Jan-Mar or Aug-Dec,"
+599,FLUSHPG2,Flu shot before/during/after a pregnancy
+600,SHTPNUYR,Pneumonia shot (EVER)
+601,APOX,Ever had chickenpox
+602,APOX12MO,"Chickenpox, past 12 m"
+603,AHEP,Ever had hepatitis
+604,AHEPLIV,Ever lived w/ someone w/ hepatitis
+605,AHEPBTST,Ever had a blood test for hepatitis B
+606,SHTHEPB,Hepatitis B vaccine (EVER)
+607,SHEPDOS,# doses of hepatitis B vaccine received
+608,SHTHEPA,Hepatitis A vaccine (EVER)
+609,SHEPANUM,# shots of hepatitis A vaccine received
+610,AHEPCTST,Ever had a blood test for hepatitis C
+611,AHEPCRES,Main reason tested for Hepatitis C
+612,SHINGLES,Ever had the Zoster or Shingles vaccine
+613,SHTTD,Tetanus shot in the past 10 years
+614,SHTTDAP2,Vaccine included pertussis/whooping cough
+615,SHTHPV2,Ever received HPV shot/vaccine
+616,SHHPVDOS,Number of HPV shots received
+617,AHPVAGE,Age at first HPV shot
+618,LIVEV,Ever told you had any kind of chronic/long-term liver condition
+619,TRAVEL,"Ever traveled outside USA since 1995 (Excluding EUR, JPN, AUS, NZL, and"
+620,WRKHLTH2,Work or volunteer in a health care setting
+621,WRKDIR,Direct contact with patients
+622,APSBPCHK,"Blood pressure checked by doctor/nurse/health professional, past 12 m"
+623,APSCHCHK,"Cholesterol checked by doctor/nurse/health professional, past 12 m"
+624,APSBSCHK,"Fasting test for high blood sugar/diabetes, past 12 m"
+625,APSPAP,"Pap smear/test, past 12 m"
+626,APSMAM,"Mammogram, past 12 m"
+627,APSCOL,"Test for colon cancer, past 12 m"
+628,APSDIET,"Doctor/health professional talked to you about diet, past 12 m"
+629,APSSMKC,"Doctor/health professional talked to you about smoking, past 12 m"
+630,AINDINS2,"Tried to purchase health insurance directly, past 3 yrs"
+631,AINDPRCH,"Purchased health insurance directly, past 3 yrs"
+632,AINDWHO,"For whom was health insurance purchased, past 3 yrs"
+633,AINDDIF1,"How difficult to find health insurance for coverage needed, past 3 yrs"
+634,AINDDIF2,"How difficult to find affordable health insurance, past 3 yrs"
+635,AEXCHNG,Looked into purchasing health insurance through Healthcare.gov or
+636,CLAS1,Important for providers to understand/share culture
+637,CLAS2,How often able to see providers who share culture
+638,CLAS3,How often treated w/ respect by providers
+639,CLAS4,How often providers ask opinions/beliefs about care
+640,CLAS5,How often providers give information easy to understand
+641,ASICPUSE,How often do you use a computer
+642,ASISATHC,"How satisfied with health care, past 12 mo"
+643,ASITENUR,Length of time living in neighborhood
+644,ASINHELP,Agree/disagree...people in neighborhood help each other
+645,ASINCNTO,Agree/disagree...people I count on in neighborhood
+646,ASINTRU,Agree/disagree...people in neighborhood can be trusted
+647,ASINKNT,Agree/disagree...close-knit neighborhood
+648,ASISIM,How you think of yourself (sexual orientation; male)
+649,ASISIF,How do you think of yourself (sexual orientation; female)
+650,ASIRETR,How worried are you about...money for retirement
+651,ASIMEDC,How worried are you about...medical costs of illness/accident
+652,ASISTLV,How worried are you about...maintaining standard of living
+653,ASICNHC,How worried are you about...medical costs of healthcare
+654,ASICCOLL,How worried are you about...paying for children's college
+655,ASINBILL,How worried are you about...paying monthly bills
+656,ASIHCST,How worried are you about...paying rent/mortgage/housing costs
+657,ASICCMP,How worried are you about...credit card payments
+658,ASISLEEP,Hours of sleep
+659,ASISLPFL,"# times having trouble falling asleep, past week"
+660,ASISLPST,"# times having trouble staying asleep, past week"
+661,ASISLPMD,"# times taking medication for sleep, past week"
+662,ASIREST,"Days woke up feeling rested, past week"
+663,ASISAD,"So sad nothing cheers you up, past 30 days"
+664,ASINERV,"How often felt nervous, past 30 days"
+665,ASIRSTLS,"How often restless/fidgety, past 30 days"
+666,ASIHOPLS,"How often felt hopeless, past 30 days"
+667,ASIEFFRT,"How often felt everything was an effort, past 30 days"
+668,ASIWTHLS,"How often felt worthless, past 30 days"
+669,ASIMUCH,"Feelings interfered w/ life, past 30 days"
+670,ASIHIVT,Ever been tested for HIV
+671,ASIHIVWN,Main reason not tested for HIV
+672,NAT_USM1,"Saw a practitioner for naturopathy, past 12 months"
+673,CHE_USM1,"Saw a practitioner for chelation therapy, past 12 months"
+674,TRD_USM1,"Saw a practitioner for Traditional Medicine, past 12 months"
+675,TR_USM21,"Saw a Shaman, past 12 months"
+676,TR_USM22,"Saw a Curandero, Machi or Parchero, past 12 months"
+677,TR_USM23,"Saw a Yerbero or Hierbista, past 12 months"
+678,TR_USM24,"Saw a Sobador, past 12 months"
+679,TR_USM25,"Saw a Native American Healer or Medicine Man, past 12 months"
+680,TR_USM26,"Other Traditional Healer, past 12 months"
+681,HOM_USM1,"Saw a practitioner for homeopathy, past 12 months"
+682,MBO_MAN1,"Used mantra meditation, past 12 months"
+683,MBO_MND1,"Used mindfulness meditation, past 12 months"
+684,MBO_SPR1,"Used spiritual meditation, past 12 months"
+685,MBO_IMG1,"Used guided imagery, past 12 months"
+686,MBO_PRO1,"Used progressive relaxation, past 12 months"
+687,YTQU_YG1,"Practiced yoga, past 12 months"
+689,YTQ_BTY1,Did breathing exercises as part of yoga
+690,YTQ_MDY1,Did meditation as part of yoga
+691,YTQU_TA1,"Practiced tai chi, past 12 months"
+692,YTQ_BTT1,Did breathing exercises as part of tai chi
+693,YTQ_MDT1,Did meditation as part of tai chi
+694,YTQU_QG1,"Practiced qi gong, past 12 months"
+695,YTQ_BTQ1,Did breathing exercises as part of qi gong
+696,YTQ_MDQ1,Did meditation as part of qi gong
+697,AWEBUSE,Internet use
+698,AWEBOFNO,Frequency internet use: # of units
+699,AWEBOFTP,Frequency internet use: Time units
+700,AWEBEML,Email use
+701,AWEBMNO,Frequency email use: # of units
+702,AWEBMTP,Frequency email use: Time units
